@@ -2,12 +2,11 @@
 <html>
 <head>
     <title>Quiz</title>
-    <link rel="stylesheet" href="../assets/style.css">
-    <link rel="stylesheet" href="../assets/startbutton.css">
+    <link rel="stylesheet" href="../04-Blake-Boiteux-Quiz/Quiz/assets/style.css">
+    <link rel="stylesheet" href="../04-Blake-Boiteux-Quiz/Quiz/assets/startbutton.css">
 </head>
 <body>
-    <section id="start" style="display:block"></section>
-    <section class="app">
+    <section class="app" style="display: none;"> <!-- Initially hide the quiz container -->
         <h1 class="title-style">Coding Quiz</h1>
         <h1 id="timer-container"></h1>
         <article class="quiz">
@@ -21,9 +20,11 @@
             <button class="next_button">Next</button>
         </article>
     </section>
-    <section id="start" class="start_button">
+
+    <!-- Start button added below -->
+    <section id="start" style="display: block;">
         <button id="start-button">Start Quiz</button>
     </section>
-    <script src="../assets/script.js"></script>
+    <script src="../04-Blake-Boiteux-Quiz/Quiz/assets/script.js"></script>
 </body>
 </html>
