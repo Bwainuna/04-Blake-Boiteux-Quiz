@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: plum;
+}
+
+
+.app {
+    background-color: #f4f4f4;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1 {
+    font-weight: 25px;
+    color: black;
+    font-weight 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.title-style{
+    font-size: 30px;
+    color: purple;
+    font-weight: 600;
+    text-align: center;
+}
+.quiz{
+    padding: 20px 0;
+    color: purple;
+    text-align: center;
+}
+.quiz h2{
+    font-size: 18.5414091px;
+    color: purple;
+    font-weight: 600;
+}
+.button{
+    background-color: purple;
+    color: #f4f4f4;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+.button:hover:not([disabled]){
+    background-color: plum;
+    color: #f4f4f4;
+}
+.button:disabled{
+    cursor: no-drop;
+}
+.next_button{
+    background-color: plum;
+    color: #f4f4f4;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all 0.3s;
+    display:block;
+}
+.next_button:hover{
+    background-color: lavender;
+    color: purple;
+}
+#start_button{
+    background-color: plum;
+    color: #f4f4f4;
+    font-weight: 5000px;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:all 0.3s;
+    display:block;
+}
+#start_button:hover{
+    background-color: lavender;
+    color: purple;
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+    background-color: #ff9393;
+}

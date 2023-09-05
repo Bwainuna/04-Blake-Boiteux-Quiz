@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Quiz</title>
-<link rel="stylesheet" href="../04-Blake-Boiteux-Quiz/assets/style.css" >
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/startbutton.css">
 </head>
-    <body>
-        
-    <script src="../04-Blake-Boiteux-Quiz/assets/script.js"></script>
-    </body>
+<body>
+    <section id="start" style="display:block"></section>
+    <section class="app">
+        <h1 class="title-style">Coding Quiz</h1>
+        <h1 id="timer-container"></h1>
+        <article class="quiz">
+            <h2 id="question"> Question? </h2>
+            <section class="answer_button">
+                <button class="button">Answer 1</button>
+                <button class="button">Answer 2</button>
+                <button class="button">Answer 3</button>
+                <button class="button">Answer 4</button>
+            </section>
+            <button class="next_button">Next</button>
+        </article>
+    </section>
+    <section id="start" class="start_button">
+        <button id="start-button">Start Quiz</button>
+    </section>
+    <script src="../assets/script.js"></script>
+</body>
 </html>

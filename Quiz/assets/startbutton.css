@@ -1,0 +1,18 @@
+#start-button {
+    background-color: purple;
+    color: #f4f4f4;
+    font-weight: 500px;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+  }
+
+  #start-button:hover {
+    background-color: lavender;
+    color: purple;
+  }
