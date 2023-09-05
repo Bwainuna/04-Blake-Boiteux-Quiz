@@ -1,3 +1,5 @@
+// The Event Listener acts when I click the start button, it moves over to my quiz and starts the questions/timer. Nothing will start until the start quiz button is clicked.
+
 const quizContainer = document.querySelector(".app");
 const startButton = document.getElementById("start-button");
 
@@ -10,6 +12,8 @@ startButton.addEventListener("click", () => {
   startQuiz();
   startTimer();
 });
+
+// Below are all the questions that I have set up in various arrays. Each to trigger one after the other.
 
 const questions = [
   {
@@ -68,6 +72,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 let timerRunning = false;
 let timer;
+
+// My functions are all pretty self explanitory in their names
 
 function startQuiz(){
   currentQuestionIndex = 0;
@@ -161,9 +167,6 @@ nextButton.addEventListener("click", () => {
   }
 });
 
-startQuiz();
-startTimer();
-
 function selectAnswer(e) {
   if (!timerRunning) {
     timerRunning = true; // Start the timer if it's not running already
@@ -194,9 +197,8 @@ function selectAnswer(e) {
 function showScore() {
   clearInterval(timer);
   resetState();
-  const totalTimeGiven = 60;
-  const calculatedScore = timeLeft + 1;
-  questionElement.innerHTML = `You scored ${calculatedScore} out of 50!`;
+  const calculatedScore = timeLeft + 1; // I was having issues with the score being off by a second every time i.e. the timer saying 39 and the score saying 38, so I just added an extra second.
+  questionElement.innerHTML = `You scored ${calculatedScore} out of 60!`; // 60 being the total time given.
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
   nextButton.addEventListener("click", () => {

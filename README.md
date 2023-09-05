@@ -21,5 +21,7 @@ Screenshots of deployed app:
 Sources that were used during this assignment came from class in canvas, as well as through the resources listed below:
 
 https://www.w3schools.com/js/js_functions.asp
+
 How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript https://youtu.be/PBcqGxrr9g8 by GreatStack
+
 ChatGPT by OpenAI @ https://openai.com/blog/chatgpt
