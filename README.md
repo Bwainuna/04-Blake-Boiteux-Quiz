@@ -1,4 +1,4 @@
-# 04-Blake-Boiteux-Quiz
+# Blake-Boiteux-Quiz
 
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
